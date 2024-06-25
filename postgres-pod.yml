@@ -9,7 +9,7 @@ metadata:
 spec:
     containers:
     - name: postgres-app
-      image: postgres:9.4
+      image: postgres:12.19-alpine
       ports:
       - containerPort: 5432
   
